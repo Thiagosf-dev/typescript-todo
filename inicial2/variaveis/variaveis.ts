@@ -52,4 +52,12 @@ let varAny3: any = "texto";
 let varAny4: any = 1;
 let varAny5: any = true;
 let varAny6: any = [];
-let varAny7: any = Array<any>("texto", 1, true, []);
+let varAny7: any[] = [1, true, "text"];
+let varAny8: any = Array<any>("texto", 1, true, []);
+let varAny9: Array<any> = [1, true, "text"];
+
+// object
+let obj1: object = {};  // tipagem do TS
+let obj2: object = undefined;
+let obj3: object = null;
+let obj4: Object = {};  // tipagem nativa
