@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "rootDir": "src",
+        "outDir": "public",
+        "sourceMap": true,
+        "module": "amd"
+    },
+    "files": [
+        "src/posts.ts"
+    ]
+}
